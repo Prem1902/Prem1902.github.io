@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prem Prakash | Senior Data Engineer & Lakehouse Architect</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true, theme: 'dark' });
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-200 font-sans antialiased selection:bg-cyan-500 selection:text-slate-950">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-tight text-white">
+                PREM<span class="text-cyan-400">.DATA</span>
+            </a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#impact" class="hover:text-cyan-400 transition">Impact</a>
+                <a href="#projects" class="hover:text-cyan-400 transition">Architecture & Projects</a>
+                <a href="#experience" class="hover:text-cyan-400 transition">Experience</a>
+                <a href="#skills" class="hover:text-cyan-400 transition">Tech Stack</a>
+            </div>
+            <a href="mailto:prem.singh1902@gmail.com" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold px-4 py-2 rounded-lg text-sm transition">
+                Hire Me / Contact
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-6 max-w-6xl mx-auto">
+        <div class="inline-flex items-center space-x-2 bg-slate-900 border border-slate-800 text-cyan-400 px-3 py-1 rounded-full text-xs font-medium mb-6">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span>Available for Enterprise Data Architecture & Consulting</span>
+        </div>
+        <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight leading-tight mb-6">
+            Architecting Resilient, Cost-Optimized <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Enterprise Lakehouses.</span>
+        </h1>
+        <p class="text-lg md:text-xl text-slate-400 max-w-3xl mb-10 leading-relaxed">
+            Hi, I’m <strong class="text-white">Prem Prakash</strong>—a Senior Data Engineer based in Bengaluru with 8+ years of experience building metadata-driven ingestion frameworks, Unity Catalog governance, and high-throughput pipelines across <strong class="text-slate-200">Google BigQuery, Databricks, and AWS</strong>.
+        </p>
+        <div class="flex flex-wrap gap-4">
+            <a href="#projects" class="bg-white text-slate-950 hover:bg-slate-200 font-semibold px-6 py-3 rounded-lg transition">
+                View Featured Architecture
+            </a>
+            <a href="https://www.linkedin.com/in/premprakash1902/" target="_blank" class="border border-slate-700 hover:border-cyan-400 text-slate-200 px-6 py-3 rounded-lg transition flex items-center gap-2">
+                <i class="fab fa-linkedin text-cyan-400"></i> LinkedIn
+            </a>
+            <a href="https://github.com/" target="_blank" class="border border-slate-700 hover:border-cyan-400 text-slate-200 px-6 py-3 rounded-lg transition flex items-center gap-2">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </section>
+
+    <!-- Key Metrics Bar -->
+    <section id="impact" class="py-10 bg-slate-900/60 border-y border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <p class="text-3xl md:text-4xl font-extrabold text-cyan-400">99.99%</p>
+                <p class="text-xs md:text-sm text-slate-400 mt-1">Data Integrity via Automated ABC Reconciliation</p>
+            </div>
+            <div>
+                <p class="text-3xl md:text-4xl font-extrabold text-cyan-400">35%+</p>
+                <p class="text-xs md:text-sm text-slate-400 mt-1">Compute Latency & Cloud Spend Reduction</p>
+            </div>
+            <div>
+                <p class="text-3xl md:text-4xl font-extrabold text-cyan-400">$500K</p>
+                <p class="text-xs md:text-sm text-slate-400 mt-1">Annual Maintenance Saved via Real-Time IoT Alerts</p>
+            </div>
+            <div>
+                <p class="text-3xl md:text-4xl font-extrabold text-cyan-400">8+ Yrs</p>
+                <p class="text-xs md:text-sm text-slate-400 mt-1">Production Data Engineering & Leadership</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Portfolio Project -->
+    <section id="projects" class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-white mb-2">Featured Production Architecture</h2>
+        <p class="text-slate-400 mb-10">Deep-dive blueprints built with production FinOps, governance, and ACID guarantees.</p>
+
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-10 mb-10">
+            <div class="flex flex-wrap justify-between items-start gap-4 mb-6">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-cyan-400 bg-cyan-950/60 border border-cyan-800 px-3 py-1 rounded-full">Databricks & Unity Catalog</span>
+                    <h3 class="text-2xl font-bold text-white mt-3">LakePulse: FinTech REST API to Atomic SCD Type 2 Engine</h3>
+                </div>
+                <a href="https://github.com/" target="_blank" class="text-sm bg-slate-800 hover:bg-slate-700 text-cyan-400 px-4 py-2 rounded-lg border border-slate-700 transition">
+                    <i class="fab fa-github mr-1"></i> View Code & DAB Config
+                </a>
+            </div>
+
+            <p class="text-slate-300 mb-6 leading-relaxed">
+                A metadata-driven Lakehouse pipeline deployed via <strong>Databricks Asset Bundles (DABs)</strong>. Extracts paginated FinTech KYC updates with exponential backoff into <strong>Unity Catalog Managed Volumes</strong>, ingests incrementally via <strong>Auto Loader (<code>cloudFiles</code>)</strong>, and executes a single-pass atomic <strong>PySpark SCD Type 2 <code>MERGE INTO</code></strong> using null-safe SHA-256 change detection and <strong>Delta Liquid Clustering</strong>.
+            </p>
+
+            <!-- Live Mermaid Architecture Diagram -->
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 overflow-x-auto mb-6">
+                <pre class="mermaid">
+flowchart LR
+    API["FinTech REST API\n(Retry 429/5xx)"] ==>|"NDJSON"| VOL[("UC Volume\nraw_api_json")]
+    VOL ==>|"Auto Loader\n(AvailableNow)"| BRZ[("Bronze Delta\ncustomer_events_raw")]
+    BRZ ==>|"SHA-256 Diff +\nStaged Merge Key"| SLV[("Silver SCD Type 2\ndim_customer_scd2")]
+    BRZ -.->|"Row Count Check"| ABC[("ABC Audit Log\npipeline_audit_log")]
+    SLV -.->|"Delta Metrics"| ABC
+                </pre>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-4 text-sm">
+                <div class="bg-slate-950/70 p-4 rounded-xl border border-slate-800/80">
+                    <h4 class="font-semibold text-white mb-1"><i class="fas fa-bolt text-cyan-400 mr-2"></i>Single-Pass SCD2 Merge</h4>
+                    <p class="text-slate-400">Uses a staged <code>merge_key</code> union pattern to expire old records and insert new active versions in a single atomic Delta commit.</p>
+                </div>
+                <div class="bg-slate-950/70 p-4 rounded-xl border border-slate-800/80">
+                    <h4 class="font-semibold text-white mb-1"><i class="fas fa-shield-halved text-cyan-400 mr-2"></i>ABC Control Gates</h4>
+                    <p class="text-slate-400">Reconciles API landed counts against Bronze loads and extracts Delta <code>operationMetrics</code> to guarantee zero silent data loss.</p>
+                </div>
+                <div class="bg-slate-950/70 p-4 rounded-xl border border-slate-800/80">
+                    <h4 class="font-semibold text-white mb-1"><i class="fas fa-coins text-cyan-400 mr-2"></i>FinOps Compute Strategy</h4>
+                    <p class="text-slate-400">Single-node standard clusters in Dev; Photon-enabled ephemeral Job Clusters with Spot workers in Prod (cutting DBU & VM costs by ~60%).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-16 px-6 max-w-6xl mx-auto border-t border-slate-900">
+        <h2 class="text-3xl font-bold text-white mb-10">Enterprise Experience</h2>
+        <div class="space-y-8 border-l-2 border-slate-800 pl-6 ml-2">
+
+            <div class="relative">
+                <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-cyan-400 border-4 border-slate-950"></div>
+                <h3 class="text-xl font-bold text-white">Data Engineer III <span class="text-cyan-400">@ American Express</span></h3>
+                <p class="text-xs text-slate-400 mb-3">Jan 2026 – Present | Bengaluru, India</p>
+                <ul class="list-disc list-inside text-slate-300 space-y-2 text-sm">
+                    <li>Architected a metadata-driven ingestion framework and a centralized <strong>Google BigQuery</strong> transformation engine processing multi-terabyte datasets.</li>
+                    <li>Embedded automated <strong>Audit, Balance, and Control (ABC)</strong> reconciliation into ingestion and transformation lifecycles to maintain 99.99% data integrity.</li>
+                    <li>Designed compliant hybrid egress workflows migrating encrypted BigQuery datasets to on-premise MS SQL servers.</li>
+                </ul>
+            </div>
+
+            <div class="relative">
+                <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-slate-950"></div>
+                <h3 class="text-xl font-bold text-white">Senior Associate L2 - Data Engineering <span class="text-cyan-400">@ Publicis Sapient</span></h3>
+                <p class="text-xs text-slate-400 mb-3">Jan 2025 – Jan 2026 | Bengaluru, India</p>
+                <ul class="list-disc list-inside text-slate-300 space-y-2 text-sm">
+                    <li>Architected low-latency streaming pipelines ingesting IoT telemetry via Azure IoT Hub & Event Hubs into <strong>Azure Databricks</strong> using Spark Structured Streaming.</li>
+                    <li>Standardized Medallion (Bronze/Silver/Gold) architecture on ADLS Gen2 with <strong>Unity Catalog</strong> RBAC and column/row-level security.</li>
+                    <li>Reduced query latency by <strong>35%+</strong> using Delta Liquid Clustering, Z-Ordering, broadcast joins, and Adaptive Query Execution (AQE).</li>
+                </ul>
+            </div>
+
+            <div class="relative">
+                <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-slate-950"></div>
+                <h3 class="text-xl font-bold text-white">Lead Data Engineer <span class="text-cyan-400">@ Biz Viz Technologies Pvt. Ltd</span></h3>
+                <p class="text-xs text-slate-400 mb-3">Oct 2018 – Jan 2025 | Bengaluru, India</p>
+                <ul class="list-disc list-inside text-slate-300 space-y-2 text-sm">
+                    <li>Led an 8-engineer pod building a Customer Data Platform (CDP) on <strong>AWS Databricks</strong> and Unity Catalog unifying multi-channel D2C customer data.</li>
+                    <li>Delivered a production Ad-Tech live pixel ingestion pipeline across S3, Athena, and Snowflake for 22 advertisers in 15 days.</li>
+                    <li>Engineered oil & gas IoT threshold alerting pipelines that prevented equipment failures and saved <strong>$500,000 annually</strong>.</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 px-6 max-w-6xl mx-auto border-t border-slate-900">
+        <h2 class="text-3xl font-bold text-white mb-8">Core Technical Stack</h2>
+        <div class="grid md:grid-cols-4 gap-6 text-sm">
+            <div class="bg-slate-900 p-5 rounded-xl border border-slate-800">
+                <h4 class="text-cyan-400 font-bold mb-3">Lakehouse & Cloud</h4>
+                <p class="text-slate-300 leading-relaxed">Databricks, Unity Catalog, Google BigQuery, Snowflake, AWS (S3, Glue, Lambda, Athena, Redshift), Azure Data Lake (ADLS Gen2)</p>
+            </div>
+            <div class="bg-slate-900 p-5 rounded-xl border border-slate-800">
+                <h4 class="text-cyan-400 font-bold mb-3">Compute & Streaming</h4>
+                <p class="text-slate-300 leading-relaxed">Apache Spark (PySpark), Spark Structured Streaming, Auto Loader, Delta Lake (Liquid Clustering), Apache Kafka, Azure Event Hubs</p>
+            </div>
+            <div class="bg-slate-900 p-5 rounded-xl border border-slate-800">
+                <h4 class="text-cyan-400 font-bold mb-3">Orchestration & DevOps</h4>
+                <p class="text-slate-300 leading-relaxed">Apache Airflow, Databricks Workflows, Databricks Asset Bundles (DABs), Git CI/CD, Docker, Python, Advanced SQL</p>
+            </div>
+            <div class="bg-slate-900 p-5 rounded-xl border border-slate-800">
+                <h4 class="text-cyan-400 font-bold mb-3">Architecture & Quality</h4>
+                <p class="text-slate-300 leading-relaxed">Medallion Architecture, SCD Type 2, Audit-Balance-Control (ABC) Frameworks, Metadata-Driven Ingestion, Data Lineage</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 border-t border-slate-900 text-center text-slate-500 text-sm">
+        <p class="text-slate-300 font-medium mb-2">Prem Prakash — Bengaluru, Karnataka, India</p>
+        <p class="mb-4">prem.singh1902@gmail.com | +91 8619730941</p>
+        <p>© 2026 Prem Prakash. Built with Tailwind CSS & Hosted on GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
